@@ -1,4 +1,82 @@
+
+header {
+    background-color: gray;
+}
+
+header img {
+    position: relative;
+    top: 10px;
+    margin-left: 15%;
+
+}
+
+main img {
+    margin: 15px;
+}
+
+div img{
+margin-top: 30px;
+}
+
+header nav {
+    position: relative;
+    bottom: 40px;
+    left: 30%;
+}
+
 header nav li {
     display: inline-block;
+    text-align: center;
+    margin-left: 60px;
+    color: white; 
+}
+main {
+    position: relative; 
+    max-width: 1000px;
+    margin: auto;
+}
+section ul li{
+    display:inline-block;
+    vertical-align: top;
+}
+section ul li div {
+    position: relative;
+}
+ section div {
+     width: 480px;
+     height: 400px;
+     margin-top: 15px;
+ }
 
+section img{
+    margin-bottom: 30px;
+    float: left;
+}
+
+h2{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+section p {
+    overflow:scroll;
+    height:345px;
+    font-size:x-large;
+    font-family:inherit;
+}
+p::-webkit-scrollbar{
+    display: none;
+}
+
+footer{
+    clear: both;
+    height: 100px;
+    background-color: gray;
+}
+button{
+    font-size: 20px;
+}
+button:hover{
+    color: rgb(95, 91, 90);
+    transition: 350ms;
 }
